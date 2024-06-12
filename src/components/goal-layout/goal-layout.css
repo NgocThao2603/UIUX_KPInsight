@@ -1,0 +1,9 @@
+@media screen and (max-width: 430px) {
+  .navbar-goal {
+    display: none;
+    width: 0;
+  }
+  .goal-content {
+    margin: 0 !important;
+  }
+}

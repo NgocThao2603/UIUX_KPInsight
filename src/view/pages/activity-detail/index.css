@@ -1,0 +1,155 @@
+.activity-detail-container {
+  display: flex;
+  margin-top: 110px;
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-detail-frame {
+  padding: 10px 50px;
+  margin-left: 250px;
+  margin-right: 20px;
+  max-width: 1000px !important;
+  width: 100%;
+  border-radius: 60px;
+}
+
+#act-title {
+  margin: 0 auto auto 0;
+  padding: 8px 0 0;
+  flex-shrink: 0;
+  color: #074979;
+  width: 200px;
+  height: 30px;
+  display: block;
+}
+
+#act-title {
+  margin-top: 0px;
+  width: 100%;
+  font-size: 24px;
+}
+
+#act-tag {
+  /* background-color: #fff; */
+  padding: 5px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.activity-detail-wrap {
+  width: auto;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #074979;
+  background-color: #ffff;
+}
+
+.activity-detail-item {
+  margin-bottom: 10px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-detail-tasks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-detail-tasks li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.activity-detail-content {
+  font-size: 14px;
+  color: #666;
+  margin-left: 70px;
+}
+
+.activity-detail-content-detail {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: #666;
+  margin-right: 70px;
+}
+
+.activity-detail-date {
+  background-color: #ffff;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.activity-detail-doctor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.activity-detail-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.act-icon {
+  font-size: 1.2em;
+  margin-left: 10px;
+  color: #074979;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+#act-title-icon {
+  margin-top: 25px;
+}
+
+.activity-detail-item ul li {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 430px) {
+  .nav-act-detail {
+    display: none;
+  }
+  .activity-detail-container {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  .activity-detail-frame {
+    margin: 0 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  .activity-detail-wrap {
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .activity-detail-content,
+  .activity-detail-content-detail {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  /* #act-title {
+    font-size: 24px;
+  } */
+}

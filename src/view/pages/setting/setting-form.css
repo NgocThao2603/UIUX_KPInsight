@@ -1,0 +1,37 @@
+.bar-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .setting-form-mobile {
+    display: none;
+  }
+  .bar-mobile {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 40px; */
+    margin: 30px 30px 10px;
+    padding: 0px 10px;
+    font-size: 18px;
+    background-color: #dae4eb;
+    border: 1px solid #074979;
+  }
+  .bar-account,
+  .bar-setting,
+  .bar-help {
+    padding: 5px;
+    text-align: center;
+  }
+  .bar-account,
+  .bar-setting {
+    border-right: 1px solid #074979;
+  }
+  .bar-active {
+    font-weight: 700;
+  }
+  .bar-link {
+    text-decoration: none;
+    color: black;
+  }
+}

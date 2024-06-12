@@ -1,0 +1,68 @@
+.choose-month-container {
+  display: flex;
+  justify-content: center;
+}
+
+.choose-month-wrap {
+  width: 350px;
+  padding: 20px;
+  margin: 50px;
+  /* box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1); */
+  border: 2px solid #074979;
+  /* border-radius: 15px; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.choose-month-heading {
+  padding: 4px 12px;
+  border-radius: 10px;
+  background-color: #074979;
+  color: white;
+  width: fit-content;
+}
+.choose-month-header {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.choose-month-des {
+  font-size: 14px;
+}
+.choose-month-btn {
+  display: flex;
+  justify-content: center;
+}
+.choose-month {
+  min-width: 250px;
+  margin: 6px 0;
+  border: 2px solid #074979;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.choose-month-button {
+  margin: 12px 12px;
+  background-color: white;
+  color: #074979;
+  border: 2px solid #074979;
+}
+
+.choose-month-button:hover {
+  background-color: #074979 !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 430px) {
+  .choose-month-button {
+    margin: 12px 6px;
+  }
+  .choose-month-wrap {
+    padding: 20px 10px;
+    width: 90% !important;
+    margin: 25px 0;
+  }
+}

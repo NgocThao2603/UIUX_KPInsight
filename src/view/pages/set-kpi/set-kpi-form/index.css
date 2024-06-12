@@ -1,0 +1,50 @@
+.set-kpi-container {
+  /* margin-left: 220px; */
+  padding: 20px 32px;
+  overflow: auto;
+  /* height: calc(100vh); */
+}
+
+.set-kpi-steps-icon {
+  padding: 12px;
+  border-radius: 50%;
+  background-color: #074979;
+  width: 30px;
+  height: 30px;
+}
+
+.set-kpi-icon {
+  color: white;
+  font-size: 30px;
+}
+.set-kpi-steps-mobile-tooltip {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .set-kpi-step-mobile {
+    display: none;
+  }
+  .set-kpi-step-item {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .set-kpi-icon {
+    display: none;
+  }
+  .set-kpi-icon-mobile {
+    color: white;
+  }
+  .set-kpi-steps-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .set-kpi-steps-mobile-tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

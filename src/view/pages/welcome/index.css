@@ -1,0 +1,35 @@
+.welcome-get-started {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome-container {
+  padding: 0px 40px;
+}
+
+.welcome-img {
+  width: 50%;
+}
+
+.welcome-pic {
+  width: 100%;
+}
+
+.welcome-get-header {
+  font-size: 40px;
+  margin: 50px 0;
+  color: #074979;
+}
+
+@media only screen and (max-width: 750px) {
+  .welcome-get-started {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .welcome-get-header {
+    font-size: 20px;
+  }
+  .welcome-img {
+    width: 100%;
+  }
+}

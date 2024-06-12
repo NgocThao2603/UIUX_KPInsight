@@ -1,0 +1,58 @@
+.sum-rate-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sum-rate {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: conic-gradient(
+      #074979 var(--percentage),
+      transparent var(--percentage)
+    ),
+    conic-gradient(#b8d3e7 var(--percentage), #b8d3e7 100%);
+}
+.text-wrap {
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+}
+.sum-rate-text {
+  position: absolute;
+  padding-top: 30%;
+  padding-left: 15%;
+  text-align: center;
+  font-size: 22px;
+  color: #074979;
+  font-weight: 900;
+}
+
+input[type="range"] {
+  margin-top: 20px;
+  width: 80%;
+}
+
+@media only screen and (max-width: 430px) {
+  .sum-rate {
+    width: 40vw;
+    height: 40vw;
+  }
+  .sum-rate-text {
+    position: absolute;
+    padding-top: 28%;
+    padding-left: 14%;
+    text-align: center;
+    font-size: 16px;
+    color: #074979;
+    font-weight: 900;
+  }
+}

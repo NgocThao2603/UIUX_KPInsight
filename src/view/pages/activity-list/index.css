@@ -1,0 +1,130 @@
+.activity-list-container {
+  display: flex;
+  margin-top: 110px;
+  width: 100%;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-list-frame {
+  padding: 10px 50px;
+  margin-left: 250px;
+  margin-right: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+#activity-list-select-container {
+  margin-left: 90%;
+  margin-top: -25px;
+}
+
+#act-list-col {
+  font-size: 16px;
+  background: rgba(7, 73, 121, 0.15);
+  width: 200px;
+  height: 220px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #074979;
+  border-radius: 10px;
+}
+
+.act-pagi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#components-pagination-demo-mini .ant-pagination:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.act-list-col-main-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  font-size: 14px;
+  margin-top: 50px;
+  /* text-align: center; */
+}
+
+.act-list-col-main-contain > div {
+  margin-bottom: 15px;
+}
+
+#col-tag-1,
+#col-tag-done,
+#col-tag-2 {
+  border-radius: 6px;
+  font-size: 11px;
+}
+
+#col-tag-done {
+  color: #074979;
+}
+
+#col-tag-1 {
+  background-color: #074979;
+  color: aliceblue;
+}
+
+.act-col-link {
+  text-decoration: none;
+  color: #074979;
+  padding: 2px 0;
+}
+
+.act-list-icon-small {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  .activity-list-grid-container {
+    margin-left: 30px;
+  }
+  #activity-list-select-container {
+    margin-left: 200px !important;
+  }
+  .activity-list-frame {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+  #activity-list-select-container {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .nav-act-detail {
+    display: none;
+  }
+  .activity-list-container {
+    width: 100%;
+    padding: 0px;
+  }
+  /* .act-pagi {
+    display: none;
+  } */
+  #act-list-col {
+    width: 80%;
+    margin: 10px 0;
+  }
+  .act-list-col-main-contain {
+    margin-left: 65px;
+    font-size: 16px;
+    /* margin-top: auto; */
+  }
+  #col-tag-1,
+  #col-tag-done,
+  #col-tag-2 {
+    font-size: 13px;
+  }
+}
